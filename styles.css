@@ -1,0 +1,78 @@
+/* footer {
+  background: orange;
+  height: 150px;
+  text-align: center;
+}
+
+#about {
+  background-color: green;
+}
+
+li {
+  font-size: 20px;
+}
+
+#projects {
+  background-color: burlywood;
+} */
+
+/*Global styles*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/*Header*/
+header {
+  background: skyblue;
+  color: white;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hover effect for nav links */
+header nav ul li a:hover {
+  color: yellow;
+}
+
+/* Main Title */
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+section {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects List */
+#projects ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#projects ul li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background: #ddd;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
